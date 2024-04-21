@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Authentication</title>
     <link rel="stylesheet" href="signup.css">
+    
+     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
   
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-
+  
 </head>
 <body >
     
@@ -246,7 +248,7 @@ if( index1==-1||index2==-1){
                      
             // Get all elements except the body
            
-            
+            console.log("if ke ander");
         
                       ////////////////////////////////////////remove body end
                      
@@ -257,6 +259,11 @@ if( index1==-1||index2==-1){
 
 
                     }
+                    console.log("if ke bahar");
+                    $("#signup").hide();
+    $("#login").hide();
+    $("#forget_password").hide();
+    $("#phase4").show();
                 },
                     error: function(xhr, status, error) {
                         alert("Error: " + status + "\nMessage: " + error);

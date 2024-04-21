@@ -1,3 +1,16 @@
+<?php
+
+
+// Check if user is logged in
+
+// Retrieve user data from session
+// $user_id = $_SESSION['user_id'];
+// $user_email = $_SESSION['user_email'];
+
+
+// You can use this data to display on the page
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +19,7 @@
     <title>Document</title>
 </head>
 <body>
+
 <div class="container-fluid d-flex align-items-center justify-content-center vh-1 ">
            <div class="card">
                 <div class="card-body ">
@@ -18,10 +32,11 @@
         <img src="img\profile_photo1.jpeg" alt="Your Image">
         </div>
         <div>
-            <p id="your_name"></p>
+        <!-- <p>User ID: <?php// echo $userId; ?></p>
+<p>Email: <?php //echo $email; ?></p> -->
         </div>
         <div>
-            <a href="logoutpage/logout.php">Continue with your profile</a>
+            <a href="http://localhost/puma/main.php">Continue with your profile</a>
         </div>
     </div>
 </div>
